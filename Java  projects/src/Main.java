@@ -11,7 +11,7 @@ public class Main {
 
         Exercise1 exe1 = new Exercise1();
         // exe1.reverse();
-         System.out.println(exe1.calcFalc(4));
+         //System.out.println(exe1.calcFalc(4));
         // System.out.println(exe1.calc_avg());
         // exe1.find_common();
         // System.out.println(exe1.conc_str());
