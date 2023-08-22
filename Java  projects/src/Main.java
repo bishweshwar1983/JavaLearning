@@ -9,20 +9,26 @@ public class Main {
 
         int fac;
 
-        Exercise1 exe1 = new Exercise1();
-        // exe1.reverse();
-         //System.out.println(exe1.calcFalc(4));
-        // System.out.println(exe1.calc_avg());
-        // exe1.find_common();
-        // System.out.println(exe1.conc_str());
-     /*   if (exe1.check_prime(1)) {
+        //Exercise1 exe1 = new Exercise1();
+         //exe1.reverse();
+         //System.out.println(exe1.calcFalc2(4));
+         //System.out.println(exe1.calc_avg());
+         //exe1.find_common();
+        //System.out.println(exe1.conc_str());
+     /*   if (exe1.check_prime(13)) {
             System.out.println("prime number");
         }
         else {
             System.out.println("Not prime");
         }
         */
-       // exe1.gcd(24,12);
+
+
+        //System.out.print(exe1.gcd(72,12));
+
+        Algorithms algo = new Algorithms();
+        //System.out.println(algo.binarysearch());
+        algo.bubblesort();
 
 
 /*
