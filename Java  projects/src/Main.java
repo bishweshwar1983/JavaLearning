@@ -80,18 +80,20 @@ public class Main {
 //
 //        System.out.println(newmap.get("one"));
 
+//            Shape s = new Shape();
+//            s.area();
 //            Rectangle r = new Rectangle();
 //            Circle c = new Circle();
 //            r.area();
 //            c.area();
 
-        Refrigerator ref = new Refrigerator();
+        Appliance ref = new Refrigerator();
         ref.function();
         ref.switchOn();
-
-        Fan f = new Fan();
-        f.function();
-        f.switchOn();
+//
+//        Fan f = new Fan();
+//        f.function();
+//        f.switchOn();
 
     }
 
