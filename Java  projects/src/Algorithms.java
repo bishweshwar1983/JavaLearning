@@ -1,4 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Algorithms {
+
+    private final List<Integer> arrayToSort;
+
+    public Algorithms(List<Integer> arrayToSort)
+    {
+        this.arrayToSort = arrayToSort;
+    }
+
+    public List<Integer> getresult(){
+        return arrayToSort;
+    }
 
     public boolean binarysearch() {
 
@@ -51,4 +65,53 @@ public class Algorithms {
         }
 
     }
+
+
+    public void mergeSort(int start, int end) {
+
+        if(start < end && (end-start)>=1){
+            int middle = (start + end)/2;
+            mergeSort(start, middle);
+            mergeSort(middle+1, end);
+            merge(start, middle, end);
+        }
+
+    }
+
+    public void merge(int lb, int mid, int ub){
+
+        List<Integer> finallist = new ArrayList<>();
+        int l = lb;
+        int j = mid+1;
+        while(l <= mid && j <= ub){
+            if(arrayToSort.get(l) <= arrayToSort.get(j)){
+                finallist.add(arrayToSort.get(l));
+                l++;
+            }
+            else{
+                finallist.add(arrayToSort.get(j));
+                j++;
+            }
+        }
+
+        while(l<=mid){
+            finallist.add(arrayToSort.get(l));
+            l++;
+        }
+
+        while(j<=ub){
+            finallist.add(arrayToSort.get(j));
+            j++;
+        }
+
+
+
+        for(int i=0; i<finallist.size(); lb++){
+            arrayToSort.set(lb, finallist.get(i++));
+        }
+        System.out.println("new new list: " + arrayToSort);
+
+    }
+
+
 }

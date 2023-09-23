@@ -21,17 +21,33 @@ public class Main {
 //        }
 
 
+        List<Integer> mergeList = new ArrayList<>();
+
+        mergeList.add(15);
+        mergeList.add(1);
+        mergeList.add(10);
+        mergeList.add(4);
+//        mergeList.add(99);
+//        mergeList.add(7);
+//        mergeList.add(9);
+//        mergeList.add(3);
+
 
         //System.out.print(exe1.gcd(72,12));
 
-        //Algorithms algo = new Algorithms();
+//Merge Sort start -------------------------------------------------------------------
+//        Algorithms algo = new Algorithms(mergeList);
+//        System.out.println(algo.getresult());
+//        algo.mergeSort(0, mergeList.size()-1);
+//        System.out.println(algo.getresult());
+//Merge sort finish ------------------------------------------------------------------
         //System.out.println(algo.binarysearch());
         //algo.bubblesort();
 
 //        Car c = new Car();
 //        c.drive();
 //        c.stop();
-//
+//n
 //        Cycle cy = new Cycle();
 //        cy.drive();
 //        cy.stop();
@@ -87,9 +103,9 @@ public class Main {
 //            r.area();
 //            c.area();
 
-        Appliance ref = new Refrigerator();
-        ref.function();
-        ref.switchOn();
+//        Appliance ref = new Refrigerator();
+//        ref.function();
+//        ref.switchOn();
 //
 //        Fan f = new Fan();
 //        f.function();
