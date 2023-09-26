@@ -1,9 +1,9 @@
 abstract class UniversityMember implements Person{
 
     abstract int getID();
-    String name;
-    int age;
-    String address;
+    protected String name;
+    protected int age;
+    protected String address;
 
     public String getName(){
         return name;

@@ -1,7 +1,9 @@
+import java.util.ArrayList;
+
 public class Student extends UniversityMember{
-    int studentID;
-    String major;
-    double GPA;
+    private int studentID;
+    private String major;
+    private double GPA;
 
     @Override
     public int getID(){
@@ -30,5 +32,10 @@ public class Student extends UniversityMember{
 
     public void setGPA(double GPA) {
         this.GPA = GPA;
+    }
+
+    @Override
+    public String toString() {
+        return this.getStudentID() + this.getMajor() + this.getGPA();
     }
 }

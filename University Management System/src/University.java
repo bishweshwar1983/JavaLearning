@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class University {
     public static void main(String[] args) {
 
         Student s1 = new Student();
@@ -29,16 +29,35 @@ public class Main {
         i2.setSalary(200000);
         i2.setEmployeeID(201);
 
+
+        ArrayList<Student> studentarray = new ArrayList<>();
+        studentarray.add(s1);
+        studentarray.add(s2);
+
         ArrayList<UniversityMember> um = new ArrayList<>();
         um.add(s1);
         um.add(s2);
         um.add(i1);
         um.add(i2);
 
-        for(UniversityMember u: um){
-            System.out.println(u.getName());
+        for (UniversityMember u : um) {
+            System.out.println(u.getID());
         }
+
+            Course course1 = new Course();
+            Course course2 = new Course();
+
+            course1.setCourseCode("C1");
+            course1.setCourseName("Course 1");
+            course2.setCourseCode("C2");
+            course2.setCourseName("Course 2");
+
+//            course1.addStudent(studentarray);
+//            course1.getAllStudents();
+            System.out.println(studentarray);
 
 
         }
     }
+
+

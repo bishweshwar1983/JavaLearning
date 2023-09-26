@@ -1,8 +1,8 @@
 public class Instructor extends UniversityMember{
 
-    int employeeID;
-    String department;
-    int salary;
+    private int employeeID;
+    private String department;
+    protected int salary;
 
     @Override
     public int getID(){
