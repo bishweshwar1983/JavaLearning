@@ -36,6 +36,6 @@ public class Student extends UniversityMember{
 
     @Override
     public String toString() {
-        return this.getStudentID() + this.getMajor() + this.getGPA();
+        return this.getStudentID() + this.getMajor() + this.getGPA()+this.getName();
     }
 }

@@ -45,16 +45,16 @@ public class University {
         }
 
             Course course1 = new Course();
-            Course course2 = new Course();
 
+//
             course1.setCourseCode("C1");
             course1.setCourseName("Course 1");
-            course2.setCourseCode("C2");
-            course2.setCourseName("Course 2");
 
-//            course1.addStudent(studentarray);
+            course1.addStudents(studentarray);
+           System.out.println(course1);
 //            course1.getAllStudents();
-            System.out.println(studentarray);
+        System.out.println(course1.getAllStudentsList());
+//            System.out.println(course1.);
 
 
         }

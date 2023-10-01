@@ -15,20 +15,26 @@ public class Course {
 
     public void getAllStudents(){
         for(Student s: students){
-            System.out.print(s.getStudentID() + "  " + s.getGPA() + " " + s.getMajor());
-        }
+//            System.out.println(s.getStudentID() + "  " + s.getGPA() + " " + s.getMajor());
+            System.out.println(s.getStudentID() + "  " + s.getGPA() + " " + s.getMajor());
+     }
+
+    }
+
+    public List<Student> getAllStudentsList(){
+        return students;
     }
 
     public Instructor getInstructor(){
         return instructor;
     }
 
-    public void addStudents(Student student){
-        students.add(student);
+    public void addStudent(Student student){
+        this.students.add(student);
     }
 
-    public void addStudent(ArrayList<Student> students){
-        students.addAll(students);
+    public void addStudents(ArrayList<Student> students){
+        this.students.addAll(students);
     }
 
     public void removeStudents(Student student){
