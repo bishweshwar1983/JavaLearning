@@ -1,18 +1,22 @@
 package com.example.demo;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 public class Book {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
     private String author;
+
+    // Constructors
+    public Book() {
+    }
 
     public Book(Long id, String title, String author) {
         this.id = id;
@@ -20,6 +24,7 @@ public class Book {
         this.author = author;
     }
 
+    // Getters and Setters
     public Long getId() {
         return id;
     }
