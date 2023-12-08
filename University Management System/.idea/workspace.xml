@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a49e7fc-31c0-4acb-9997-df15964100e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java  projects/src/IncrementingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java  projects/src/IncrementingThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java  projects/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java  projects/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/University Management System.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaLearning/Algorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaLearning/Algorithms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaLearning/Appliance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaLearning/Appliance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaLearning/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaLearning/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaLearning/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaLearning/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaLearning/Cycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaLearning/Cycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaLearning/Fan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaLearning/Fan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaLearning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaLearning/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaLearning/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaLearning/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaLearning/Refrigerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaLearning/Refrigerator.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2XRXOhqMZKEUsctHoaC7nnXIoB1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Bish/Java Projects/JavaLearning/Java  projects"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a49e7fc-31c0-4acb-9997-df15964100e3" name="Changes" comment="" />
+      <created>1698592835587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698592835587</updated>
+    </task>
+    <servers />
+  </component>
+</project>
