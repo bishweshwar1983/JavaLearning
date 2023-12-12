@@ -1,5 +1,6 @@
 package org.example;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Member {
@@ -15,6 +16,7 @@ public class Member {
 
     public void borrowItem(Item item){
         borrowedItems.add(item);
+        item.setDueDate(LocalDate.now().plusDays(7));
     }
 
     public void returnItem(Item item){
@@ -40,7 +42,7 @@ public class Member {
     public void displayBorrowedItems(){
         if(borrowedItems.size() != 0){
             for(Item i : borrowedItems){
-                System.out.println(memberId + "   " + memberName + "     " +  i);
+                System.out.println(memberId + "   " + memberName + "     " +  i + "      " + i.getDueDate() );
             }
         }
         else{

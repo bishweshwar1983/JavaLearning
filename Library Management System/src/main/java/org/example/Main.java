@@ -21,10 +21,9 @@ public class Main {
         lib.displayAvailableItems();
 
 
-        System.out.println("\n" + "Members and their borrowed itmes ----> " + "\n");
+        System.out.println("\n" + "Members and their borrowed itmes and due date----> " + "\n");
         lib.displayBorrowedItems();
-        System.out.println("\n" + "Borrowed items and due date ----> " + "\n");
-        lib.displayBorrowedItemDueDate();
+
         System.out.println("\n" + "-------------------------------------------------- After Return --------------------------------------------------------" + "\n");
         lib.returnItem("1", "M1");
         System.out.println("\n" + "Available items in library   =====> " + "\n");
@@ -32,7 +31,7 @@ public class Main {
         System.out.println("\n" + "Members and their borrowed itmes ====> " + "\n");
         lib.displayBorrowedItems();
         System.out.println("\n" + "-------------------------------------------------- Search Item --------------------------------------------------------" + "\n");
-        lib.search("Mtitle12");
+        lib.search("Btitle2");
 
 
 

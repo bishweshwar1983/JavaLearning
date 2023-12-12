@@ -6,8 +6,8 @@ import java.time.LocalDate;
 abstract class Item {
     String id;
     String title;
+    LocalDate dueDate;
 
-    Date dueDate;
     abstract void displayDetails();
 
     public String getId() {
@@ -19,4 +19,11 @@ abstract class Item {
         return title;
     }
 
+    public void setDueDate(LocalDate dueDate) {
+        this.dueDate = dueDate;
+    }
+
+    public LocalDate getDueDate() {
+        return dueDate;
+    }
 }
