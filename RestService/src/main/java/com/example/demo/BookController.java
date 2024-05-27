@@ -1,7 +1,10 @@
 package com.example.demo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,8 +13,16 @@ import java.util.List;
 @RequestMapping("/books")
 public class BookController {
 
-    @Autowired
     private BookRepository bookRepository;
+
+    public BookController(){
+
+    }
+
+    @Autowired
+    public void setBookRepository(BookRepository bookRepository){
+        this.bookRepository = bookRepository;
+    }
 
     // Create a new book
     @PostMapping
@@ -22,7 +33,8 @@ public class BookController {
     // Modified Get all books with pagination and sorting
     //GET /books?page=<pageNumber>&size=<pageSize>&sort=<fieldName>,<direction>
     @GetMapping
-    public List<Book> getAllBooks(Pageable pageable) {
+    public List<Book> getAllBooks( @PageableDefault(size = 3, page = 0) Pageable pageable) {
+//        System.out.println(pageable.getClass());
         return bookRepository.findAll(pageable).getContent();
     }
 
